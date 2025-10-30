@@ -1,0 +1,54 @@
+/* Hintergrundfarbe der Seite */
+body {
+  background-color: orange;
+}
+
+/* Überschrift und Fließtext zentriert */
+h1 {
+  text-align: center;
+}
+
+/* Fließtext linksbündig */
+p {
+  text-align: left;
+}
+
+/* Haupt-Container für Bild und Text nebeneinander */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Bildgestaltung */
+.bild {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Textkasten neben dem Bild */
+.text-box {
+  max-width: 400px;
+  background-color: #fff8dc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Überschrift im Textkasten */
+.text-box h2 {
+  text-align: left;
+  margin-top: 0;
+}
+
+/* Optional: Spaltenlayout für andere Bereiche */
+.column {
+  width: 45%;
+  background-color: #fff8dc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
